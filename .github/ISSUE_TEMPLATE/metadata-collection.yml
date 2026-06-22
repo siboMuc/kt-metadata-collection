@@ -1,22 +1,16 @@
 name: "\U0001F4CB Team Registration"
-description: "Register your team — takes 10 seconds. One submission per person."
+description: "Select your team, click Submit — done. One submission per person."
 title: "[Team Registration]"
 labels: ["metadata", "collection"]
 body:
   - type: markdown
     attributes:
-      value: |
-        ## Welcome! 👋
-        This is a one-time registration so your Copilot usage can be tracked by team.
-        Simply select your team below and click **Submit new issue** — that's it.
-
-        > Your GitHub username is captured automatically. No other data is collected.
+      value: "Select your team below and click **Submit new issue**. If you change teams later, just submit again — your latest entry wins.*"
 
   - type: dropdown
     id: team
     attributes:
       label: Which team are you in?
-      description: Select the team you currently work in. If you change teams later, just submit again — your latest submission always wins.
       options:
         - PIO / System Services
         - Finance (IPMI / Mawista)
@@ -31,6 +25,4 @@ body:
 
   - type: markdown
     attributes:
-      value: |
-        ---
-        ✅ **Done?** Click **Submit new issue** above. No need to add a title or description.
+      value: "<sub>* Only your GitHub username and team selection are recorded and used solely for internal Copilot adoption reporting.</sub>"
