@@ -12,13 +12,20 @@ body:
     attributes:
       label: Which team are you in?
       options:
-        - PIO / System Services
-        - Finance (IPMI / Mawista)
-        - Pulse
+        - BI Analytics & Reporting
+        - CARE
         - Claims
-        - Member Portal
-        - Reporting
-        - DevOps / Platform
+        - DevOps
+        - DPS
+        - DPS UI/UX
+        - Finance
+        - Front/Back-end Architects
+        - Iris Report
+        - MPM & MDM
+        - PIO, RIO
+        - Policies & Products
+        - Pulse V3
+        - Test Factory DevOps
         - Other
     validations:
       required: true
