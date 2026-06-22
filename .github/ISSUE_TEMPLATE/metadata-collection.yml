@@ -1,19 +1,22 @@
-name: 📋 Metadata Collection
-description: Minimal metadata intake.
-title: "[Metadata] Team submission"
+name: "\U0001F4CB Team Registration"
+description: "Register your team — takes 10 seconds. One submission per person."
+title: "[Team Registration]"
 labels: ["metadata", "collection"]
 body:
   - type: markdown
     attributes:
       value: |
-        Please enter the mandatory field below.
+        ## Welcome! 👋
+        This is a one-time registration so your Copilot usage can be tracked by team.
+        Simply select your team below and click **Submit new issue** — that's it.
+
+        > Your GitHub username is captured automatically. No other data is collected.
 
   - type: dropdown
     id: team
     attributes:
       label: Which team are you in?
-      description: Select one team.
-      default: 0
+      description: Select the team you currently work in. If you change teams later, just submit again — your latest submission always wins.
       options:
         - PIO / System Services
         - Finance (IPMI / Mawista)
@@ -25,3 +28,9 @@ body:
         - Other
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ✅ **Done?** Click **Submit new issue** above. No need to add a title or description.
