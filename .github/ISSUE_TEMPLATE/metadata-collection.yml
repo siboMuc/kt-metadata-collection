@@ -28,7 +28,6 @@ body:
         - Policies & Products
         - Pulse V3
         - RUN
-        - Test Factory DevOps
         - Other
     validations:
       required: true
